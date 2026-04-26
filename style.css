@@ -6,6 +6,14 @@ body {
     
 }
 
+.en {
+    display: none;
+}
+
+.id {
+    display:block;
+}
+
 h1 {
     color: rgb(14, 0, 139);
     text-align: center;

@@ -50,11 +50,12 @@ a {
     color: white;
     border-radius: 8px;
     margin-bottom: 25px;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 a:hover {
     background: #0f2fa8;
+    opacity: 0.8;
 }
 
 main {
@@ -96,7 +97,7 @@ footer {
 .container {
     display: flex;
     padding: 5px;
-    text-align: center;
+    text-align: left;
     background: rgba(225, 225, 225, 0.418);
     backdrop-filter: blur(10px);
     margin-bottom: 15px;
@@ -114,12 +115,27 @@ footer {
     box-sizing: border-box;
 }
 
-.project-item {
+.projet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+    
+.project-card {
     display: flex;
     flex-direction: column;
-    align-items: center; /* center horizontal */
-    text-align: center;
-    gap: 10px;
+    align-items:center;
+    text-align:center;
+    gap: 5px;
+   
+   background: rgba(225, 225, 225, 0.418);
+   padding: 16px;
+   border-radius: 16px;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
 }
 
 :root {
@@ -135,8 +151,15 @@ button {
     background: #1a4dd8b2;
     color: white;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
     background: #0f2fa8;
+}
+
+html{
+    scroll-behavior: smooth;
 }

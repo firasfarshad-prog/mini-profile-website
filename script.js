@@ -13,4 +13,5 @@ function ubahBahasa() {
     eng.forEach(el => el.style.display = "none");
     bahasa = "id";
   }
+  
 }

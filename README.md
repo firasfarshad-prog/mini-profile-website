@@ -11,6 +11,7 @@ This is my first website built using **HTML, CSS, and JavaScript**.
 * ✅ Styling dengan CSS (gradient, shadow, glass effect)
 * ✅ Responsive layout
 * ✅ Interaksi sederhana dengan JavaScript
+* ✅ Nav bar
 * 🌐 Bilingual (Bahasa Indonesia & English switch)
 
 ---

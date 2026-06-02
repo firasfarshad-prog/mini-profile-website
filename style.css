@@ -163,3 +163,16 @@ button:hover {
 html{
     scroll-behavior: smooth;
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    background: rgba(1, 238, 255, 0.2);
+}
